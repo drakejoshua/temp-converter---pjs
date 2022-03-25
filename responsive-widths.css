@@ -1,0 +1,75 @@
+/* created by mabawonku joshua -> media queries usable for css responsive breakpoints */
+
+/* breakpoints on widths */
+
+/* for large mobile-phones */
+@media only screen and ( max-width:428px ) and ( min-width:0px ){
+    div#conversion-choice, div#converter{
+        width: 80%;
+        box-sizing: border-box;
+    }
+    div#conversion-choice span, div#conversion-choice select{
+        display: block;
+        margin: 2rem auto;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    div#conversion-choice select{
+        font-size: 1.8rem;
+        width: 100%;
+        padding: 1rem;
+        font-family: var(--font-family);
+    }
+}
+
+/* for medium tablets */
+@media only screen and ( max-width:768px ) and ( min-width:429px ){
+    div#conversion-choice, div#converter{
+        width: 60%;
+        box-sizing: border-box;
+    }
+    div#conversion-choice span, div#conversion-choice select{
+        display: block;
+        margin: 2rem auto;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    div#conversion-choice select{
+        font-size: 1.8rem;
+        width: 100%;
+        padding: 1rem;
+        font-family: var(--font-family);
+    }
+}
+
+/* for large tablets and small-sized laptops */
+@media only screen and ( max-width:1024px ) and ( min-width:769px ){
+    div#conversion-choice, div#converter{
+        width: 65%;
+        box-sizing: border-box;
+    }
+    div#conversion-choice span, div#conversion-choice select{
+        display: block;
+        margin: 2rem auto;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    div#conversion-choice select{
+        font-size: 1.8rem;
+        width: 100%;
+        padding: 1rem;
+        font-family: var(--font-family);
+    }
+}
+
+/* for large laptops */
+@media only screen and ( max-width:2000px ) and ( min-width:1025px ){
+    /* css code */
+}
+
+/* for 2k screens and more */
+@media only screen and ( min-width:2001px ) {
+    :root{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+/* breakpoints on heights */
+
+/* for short devices */
+@media only screen and ( max-height:600px ) and ( min-height:0px ){
+    body{
+        height: 150vh;
+    }
+}
+
+/* for medium-heighted devices */
+@media only screen and ( max-height:900px ) and ( min-height:601px ){
+    /* css code */
+}
+
+/* for tall devices */
+@media only screen and ( max-height:1400px ) and ( min-height:901px ){
+    /* css code */
+}
+
+/* for extra tall devices */
+@media only screen and ( max-height:2000px ) and ( min-height:1401px ){
+    /* css code */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temperature converter</title>
+    <base href="drakejoshua.github.io">
+    <link rel="stylesheet" href="/temp-converter---pjs/style.css"/>
+    <link rel="stylesheet" href="/temp-converter---pjs/responsive-widths.css"/>
+    <link rel="stylesheet" href="/temp-converter---pjs/responsive-heights.css"/>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>
+            welcome, convert temperatures
+        </h1>
+    </header>
+
+    <!-- conversion choice panel -->
+    <div id="conversion-choice">
+        <span id="choice-header" class="choice"> choose conversion direction </span>
+        <select id="choice-selector" class="choice">
+            <option value="dir" selected> select temperature conversion direction </option>
+            <option value="ktoc"> convert kelvin to celcius temperature </option>
+            <option value="ctok"> convert celcius to kelvin temperature </option>
+            <option value="ktof"> convert kelvin to farenheit temperature </option>
+            <option value="ftok"> convert farenheit to kelvin temperature </option>
+            <option value="ftoc"> convert farenheit to celcius temperature </option>
+            <option value="ctof"> convert celcius to farenheit temperature </option>
+        </select>
+    </div>
+
+    <!-- conversion panel -->
+    <div id="converter">
+        <input type="number" id="converter-input-1" class="converter-inputs" placeholder="enter temperature">
+        <input type="number" id="converter-input-2" class="converter-inputs">
+    </div>
+
+    <!-- the javascript engine -->
+    <script src="/temp-converter---pjs/script.js"></script>
+</body>
+</html>

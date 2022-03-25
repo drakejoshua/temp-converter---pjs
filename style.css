@@ -1,0 +1,53 @@
+/* base styles */
+:root{
+    font-size: 10px;
+    --font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/animals/pexels-jeremy-bishop-2922672.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    padding: 1rem;
+}
+header h1{
+    color: white;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-align: center;
+}
+div#conversion-choice, div#converter{
+    padding: 2rem;
+    background-color: white;
+    width: 50%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+div#conversion-choice span{
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+    margin: 0rem 3rem;
+}
+div#conversion-choice select{
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+}
+
+
+div#converter{
+    margin: 2rem auto;
+}
+div#converter input{
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+    display: block;
+    margin: inherit;
+    padding: 1rem;
+    font-size: 2rem;
+}
