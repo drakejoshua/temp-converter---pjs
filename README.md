@@ -5,7 +5,7 @@
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-This is a temperature converter created by mabawonku joshua 
+This is a temperature converter
 
 ### Links
 
